@@ -31,11 +31,12 @@ permalink: cv
 </section>
 <section>
     <h2>Work Experience</h2>
-    <div>
+    <div id="experience">
         {% for exp in site.work_experience %}
-        <h3 id="experience">{{exp.title}}</h3>
-        <i id="experience">{{exp.loc}} | {{exp.when}}</i>
-        <p id="experience">{{exp.desc}}<p>
+        <h3>{{exp.title}}</h3>
+        <i>{{exp.loc}}, {{exp.when}}</i>
+        <p>{{exp.desc}}<p>
+        <br>
         {% endfor %}
     </div>
 </section>

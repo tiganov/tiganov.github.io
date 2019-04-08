@@ -3,7 +3,7 @@ html {
 }
 
 .standard {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, Ubuntu, segoe ui, arial, sans-serif
+    font-family: 'Nanum Gothic', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, Ubuntu, segoe ui, arial, sans-serif
 }
 
 .standard h1 {
@@ -33,7 +33,6 @@ html {
     display: block;
     list-style-type: disc;
     padding-left: 20px;
-    margin: 1.75rem 0
 }
 
 .standard ol ul,
