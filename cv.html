@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: cv
+---
+
+<section>
+        <h2>Interests</h2>
+        <div id="navcontainer">
+            <ul>{% for interest in site.interests %}
+                <li>{{ interest }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+</section>
+<section>
+        <h2>Acedemic Achievements</h2>
+        <h4>University</h4>
+        <div id="navcontainer">
+            <ul>{% for ach in site.academic_achievements_university %}
+                <li>{{ ach }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <h4>High School</h4>
+        <div id="navcontainer">
+            <ul>{% for ach in site.academic_achievements_high_school %}
+                <li>{{ ach }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+</section>
+<section>
+    <h2>Work Experience</h2>
+    <div>
+        {% for exp in site.work_experience %}
+        <h3 id="experience">{{exp.title}}</h3>
+        <i id="experience">{{exp.loc}} | {{exp.when}}</i>
+        <p id="experience">{{exp.desc}}<p>
+        {% endfor %}
+    </div>
+</section>

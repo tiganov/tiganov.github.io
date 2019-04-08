@@ -1,0 +1,150 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Daniil Tiganov
+description: > # this means to ignore newlines until "baseurl:"
+  A minimalistic theme for Jekyll, based on hack.css
+repository: https://github.com/wemake-services/jekyll-theme-hackcss
+baseurl: /jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+url: https://tiganov.ca  # the base hostname & protocol for your site
+name: Daniil Tiganov
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: Daniil Tiganov
+email: tiganov@ualberta.ca
+
+navigation:
+  - text: About me
+    url: /
+  - text: Projects
+    url: /projects
+  - text: CV
+    url: /cv
+
+about_description: "Computing Science undergraduate student at the University of Alberta.
+Working at the Maple lab under Dr. Karim Ali during Summer 2019."
+
+about_me: "I was born in Chisinau, Moldova and my family immigrated to Canada in 2004. I grew up in small farming town in North-Eastern Saskatchewan. During my childhood, I spent just as much time behind a computer as I did working with my hands, whether it was working on cars with my dad, doing landscaping, or working on construction/renovation projects. I graduated in 2016 and moved to Edmonton to study at the University of Alberta."
+
+research_area: "I am interested in static analysis tools that can be deployed and used by developers in the industry. I put high priority in making software usable and maintainable. I believe the majority of research done in the field of static analysis is impractical from the industry point of view. Many frameworks and tools are developed, but most never make it past the prototype stage. Many researchers simply don’t care if their tool contributes to the industry or not. This is evident by poor (or a complete lack of) artifacts, and hard to reproduce data in many published papers in the research area. I want the tools I work on to be well documented and easy to build, use, and integrate into developers workflows and development processes."
+
+projects:
+  - name: Swasar - Swift implementation for Phasar
+    description: I am working on extending Phasar, an LLVM-based static analysis framework developed by the Secure Software Engineering group at Paderborn University, to allow for running analysis on Swift apps.
+    link: https://github.com/tiganov/swasar
+    image: images/phasar.png
+
+  - name: SWAN - A program analysis framework for Swift
+    description: During the summer of 2019, I will be working under the supervision of Dr. Karim Ali to continue the work on SWAN. I am working on Swasar on personal time parallel to this development on SWAN because I am interested in exploring other solutions for Swift program analysis.
+    link: https://karimali.ca
+    image: images/swan.png
+
+  - name: GIS software to assist surveyors in topological surveys
+    description: When I was surveying for Greentree Engineering, I found a large bottleneck in the topological surveying process. I lead a team of 4 developers (total), under the name Prairium, and we are working on a commercial software solution for this problem.
+    image: images/prairium.png
+
+  - name: CloudCity - A city building game written for HackEd 2019
+    description: A small game almost entirely from scratch about population management and city building using openFrameworks written during HackED 2019.
+    image: images/cloudcity.png
+    link: https://github.com/nickdchee/CityBuilderRTS
+
+  - name: Prototype for the current GIS software for topological surveys being developed
+    description: I developed a prototype for resolving a bottleneck in topological surveying and used the software in the field, saving the company lots of time. I have used the survey on a few job-sites, including James Cameron’s pea processing facility, Verdient Foods, located in Vanscoy, SK.
+    image: images/surveyor.png
+
+  - name: CAT - Cluedo Assistant Tool
+    description: A tool that can log moves and keep track of clues. I was fed up with WPF, so I never ended up implementing an MCTS for Cluedo, but the frontend is there.
+    image: images/cat.png
+    link: https://github.com/tiganov/CAT
+
+  - name: DoctorPlzSaveMe - a medical app developed for CMPUT 301 (Intro to Software Engineering)
+    description: I took the role of project lead and backend developer for this course project. This app allows users to record their medical issues, keep track of them, and receive feedback from a care provider.
+    image: images/doctorplzsaveme.png
+    link: https://github.com/CMPUT301F18T21/DoctorPlzSaveMe
+
+  - name: Starcraft 2 bot - a bot developed for CMPUT 350 (Advanced Game Programming)
+    description: We developed the bot on top of CommandCenter, and pitted it against other teams’ bots. I worked on siege tank and resource mining AI.
+    link: https://github.com/tiganov/PatientBot
+    image: images/sc2.png
+
+  - name: Minor contribution to Frontline, an Arma 3 Mission Mod
+    description: I helped fix a couple of issues with the build. Frontline is an Arma 3 PVP mod, with a complex backend. It is an extremely unique mission in the Arma 3 modding community.
+    link: https://gitlab.com/FrontlineA3/Frontline
+    image: images/frontline.png
+
+  - name: Laser Tag Pistol
+    description: I 3D printed, built, and programmed a custom laser tag pistol. It used a Teensy for a micro-controller, produces various sounds, has LED animations, and can receive/send unique IR signals (to be able to differentiate between teams, for instance). I wanted to add more functionality, such as a vibration motor, but was limited by the number of timers the micro-controller had.
+    link: https://www.youtube.com/watch?v=VDHNdLiEAhM&feature=youtu.be
+    image: images/laser.JPG
+
+  - name: Automatic deadbolt unlocker
+    description: I 3D printed, built, and programmed a remote-based automatic deadbolt unlocker for my dorm in my first year at university.
+    link: https://www.youtube.com/watch?v=exouNxdYlAY&feature=youtu.be
+    image: images/dorm.jpeg
+
+  - name: Control panel for flight sims
+    description: I started making a control panel for Elite Dangerous (space flight sim game), but never finished it. WIP, mostly abandoned.
+    image: images/controlpanel.jpg
+
+interests:
+  - Programming languages
+  - Static analysis
+  - Computer architecture
+  - Software architecture and design patterns
+  - Land Surveying
+  - GIS software solutions
+  - Industrial Automation
+  - Creative programming
+  - Electronics (tinkering)
+  - CAD
+
+academic_achievements_university:
+  - Deans Honour Roll for Fa17/Wi19
+  - Current GPA ~3.6
+
+academic_achievements_high_school:
+  - Fast tracked high school education by one year
+  - Certificate of Academic Excellence for Physics 30 and Law 30
+  - Cornerstone Credit Union Scholarship for Fifth Highest Academic Standing
+  - Harley & Hazel Ransom Memorial Scholarship for Post-Secondary Studies in Engineering
+
+work_experience:
+- title: General Labourer/Surveyor
+  loc: Greentree Engineering - Tisdale, Saskatchewan
+  when: May 2018 - Aug 2018
+  desc: Personal property maintenance, laser scanning, surveying, automating surveying tools, staking roads, concrete foundations, and excavation
+- title: General Labourer
+  loc: Greentree Engineering - Tisdale, Saskatchewan
+  when: Jun 2017 - Aug 2017
+  desc: Maintained 7 properties. Renovated house - demolition, drywall, plumbing, electrical, windows installation, wall framing. Misc. jobs - mechanical upkeep, hauling trailers, shed assembly, etc.
+- title: Student Position
+  loc: Beeland Co-op Home Center - Tisdale, Saskatchewan
+  when: Jul 2015 - Jun 2016
+  desc: Provided support to customers regarding paint, plumbing, electrical, vanities, electric mowers, yard tractors, and tools. Assembled yard tractors, trailers, and air compressors.
+
+social:
+  - service: github
+    username: tiganov
+    link: https://github.com/tiganov
+  - service: linkedin
+    username: daniil-tiganov
+    link: https://www.linkedin.com/in/daniil-tiganov/
+
+# Plugins
+gems:
+  - jekyll-seo-tag
