@@ -756,7 +756,21 @@ margin-left: -1px
 }
 
 .card {
+    height: 100%;
+}
 
+.card .card-content {
+    height: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .inner {
+    height: 100%;
 }
 
 .card .card-header {
