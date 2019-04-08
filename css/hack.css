@@ -580,7 +580,10 @@ float:left
 margin-left:-1px
 }
 .card{
+height: calc(100% - 15px);
+margin-bottom: 15px;
 border:1px solid #ccc;
+
 }
 .card .card-header{
 color:#333;
@@ -589,15 +592,10 @@ background-color:#ddd;
 padding: 5px;
 }
 .card .card-content{
-
+top: 50%;
+position: relative;
+transform: translateY(-50%);
 }
-.card .card-content .t-hackcss-cards-link{
-}
-.card .card-content .card-image{
-max-width: 100%;
-max-height: 100%;
-}
-
 
 
 .alert{
