@@ -89,12 +89,12 @@ projects:
 
   - name: Laser Tag Pistol
     description: I 3D printed, built, and programmed a custom laser tag pistol. It used a Teensy for a micro-controller, produces various sounds, has LED animations, and can receive/send unique IR signals (to be able to differentiate between teams, for instance). I wanted to add more functionality, such as a vibration motor, but was limited by the number of timers the micro-controller had.
-    link: https://www.youtube.com/watch?v=VDHNdLiEAhM&feature=youtu.be
+    link_video: https://www.youtube.com/watch?v=VDHNdLiEAhM&feature=youtu.be
     image: images/laser.JPG
 
   - name: Automatic deadbolt unlocker
     description: I 3D printed, built, and programmed a remote-based automatic deadbolt unlocker for my dorm in my first year at university.
-    link: https://www.youtube.com/watch?v=exouNxdYlAY&feature=youtu.be
+    link_video: https://www.youtube.com/watch?v=exouNxdYlAY&feature=youtu.be
     image: images/dorm.jpeg
 
   - name: Control panel for flight sims
