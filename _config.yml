@@ -99,7 +99,7 @@ projects:
 
   - name: Control panel for flight sims
     description: I started making a control panel for Elite Dangerous (space flight sim game), but never finished it. WIP, mostly abandoned.
-    image: images/controlpanel.jpg
+    image: images/controlpanel.png
 
 interests:
   - Programming languages
