@@ -592,9 +592,7 @@ background-color:#ddd;
 padding: 5px;
 }
 .card .card-content{
-top: 50%;
-position: relative;
-transform: translateY(-50%);
+
 }
 .card .card-content .t-hackcss-cards-link{
 }
