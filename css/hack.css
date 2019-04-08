@@ -580,10 +580,7 @@ float:left
 margin-left:-1px
 }
 .card{
-height: calc(100% - 15px);
-margin-bottom: 15px;
 border:1px solid #ccc;
-
 }
 .card .card-header{
 color:#333;
