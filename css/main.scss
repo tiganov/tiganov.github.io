@@ -24,14 +24,14 @@ $on-palm:          768px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@media screen and (max-width: $device) {
+@content;
+}
 }
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "styles",
-        "highlight"
+"styles",
+"highlight"
 ;

@@ -7,8 +7,7 @@
 
 # Site settings
 title: Daniil Tiganov
-description: > # this means to ignore newlines until "baseurl:"
-  A minimalistic theme for Jekyll, based on hack.css
+description:
 repository: https://github.com/tiganov/tiganov.github.io
 baseurl: /tiganov.github.io  # the subpath of your site, e.g. /blog
 url: https://tiganov.ca  # the base hostname & protocol for your site
@@ -65,7 +64,7 @@ projects:
 
   - name: Prototype for the current GIS software for topological surveys being developed
     description: I developed a prototype for resolving a bottleneck in topological surveying and used the software in the field, saving the company lots of time. I have used the survey on a few job-sites, including James Cameron’s pea processing facility, Verdient Foods, located in Vanscoy, SK.
-    image: images/surveyor.png
+    image: images/gis.png
 
   - name: CAT - Cluedo Assistant Tool
     description: A tool that can log moves and keep track of clues. I was fed up with WPF, so I never ended up implementing an MCTS for Cluedo, but the frontend is there.
