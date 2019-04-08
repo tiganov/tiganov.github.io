@@ -761,7 +761,7 @@ margin-left: -1px
 
 .card .card-content {
     height: 100%;
-    display: -webkit-flex;
+    display: -webkit-flexbox;
     -webkit-flex-direction: column;
     -webkit-justify-content: center;
     display: flex;
@@ -770,7 +770,7 @@ margin-left: -1px
 }
 
 .card .inner {
-    height: 100%;
+    
 }
 
 .card .card-header {
