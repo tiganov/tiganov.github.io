@@ -84,6 +84,7 @@ projects:
   - name: Black Hole Visualizer
     description: I attempted to visualize a spinning black hole using openFrameworks for an ASTRO creative assignment. It was difficult to do, but the result is interesting.
     link: https://github.com/tiganov/BHSim
+    image: images/bhsim.png
 
   - name: Minor contribution to Frontline, an Arma 3 Mission Mod
     description: I helped fix a couple of issues with the build. Frontline is an Arma 3 PVP mod, with a complex backend. It is an extremely unique mission in the Arma 3 modding community.
