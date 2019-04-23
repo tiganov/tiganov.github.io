@@ -43,15 +43,15 @@ about_me: "I was born in Chisinau, Moldova and my family immigrated to Canada in
 research_area: "I am interested in static analysis tools that can be deployed and used by developers in the industry. I put high priority in making software usable and maintainable. I believe the majority of research done in the field of static analysis is impractical from the industry point of view. Many frameworks and tools are developed, but most never make it past the prototype stage. Many researchers simply don’t care if their tool contributes to the industry or not. This is evident by poor (or a complete lack of) artifacts, and hard to reproduce data in many published papers in the research area. I want the tools I work on to be well documented and easy to build, use, and integrate into developers workflows and development processes."
 
 projects:
-  - name: Swasar - Swift implementation for Phasar
-    description: I am working on extending Phasar, an LLVM-based static analysis framework developed by the Secure Software Engineering group at Paderborn University, to allow for running analysis on Swift apps.
-    link: https://github.com/tiganov/swasar
-    image: images/phasar.png
-
   - name: SWAN - A program analysis framework for Swift
-    description: During the summer of 2019, I will be working under the supervision of Dr. Karim Ali to continue the work on SWAN. I am working on Swasar on personal time parallel to this development on SWAN because I am interested in exploring other solutions for Swift program analysis.
+    description: During the summer of 2019, I will be working under the supervision of Dr. Karim Ali to continue the work on SWAN, a static analysis framework for analyzing Swift (incl. iOS and macOS) applications.
     link: https://karimali.ca
     image: images/swan.png
+
+  - name: Swasar - Swift implementation for Phasar
+    description: I worked on extending Phasar, an LLVM-based static analysis framework developed by the Secure Software Engineering group at Paderborn University, to allow for running analysis on Swift apps for CMPUT 497 course project.
+    link: https://github.com/tiganov/swasar
+    image: images/phasar.png
 
   - name: GIS software to assist surveyors in topological surveys
     description: When I was surveying for Greentree Engineering, I found a large bottleneck in the topological surveying process. I lead a team of 4 developers (total), under the name Prairium, and we are working on a commercial software solution for this problem.
