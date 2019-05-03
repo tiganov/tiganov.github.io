@@ -36,7 +36,7 @@ navigation:
     url: /cv
 
 about_description: "Computing Science undergraduate student at the University of Alberta.
-Working at the Maple lab under Dr. Karim Ali during Summer 2019."
+Working at the Maple lab under Dr. Karim Ali during the summer of 2019."
 
 about_me: "I was born in Chisinau, Moldova, and my family immigrated to Canada in 2004. I grew up in small farming town in North-Eastern Saskatchewan. During my childhood, I spent just as much time behind a computer as I did working with my hands; whether it was working on cars with my dad, landscaping, or working on construction projects. I graduated high school in 2016, and moved to Edmonton to study at the University of Alberta."
 
@@ -44,8 +44,8 @@ research_area: "I am interested in static analysis tools that can be deployed an
 
 projects:
   - name: SWAN - A program analysis framework for Swift
-    description: During the summer of 2019, I will be working under the supervision of Dr. Karim Ali to continue the work on SWAN, a static analysis framework for analyzing Swift (incl. iOS and macOS) applications.
-    link: https://karimali.ca
+    description: During the summer of 2019, I am working under the supervision of Dr. Karim Ali to continue the work on SWAN, a static analysis framework for analyzing Swift applications.
+    link: https://github.com/themaplelab/swan
     image: images/swan.png
 
   - name: Swasar - Swift implementation for Phasar
