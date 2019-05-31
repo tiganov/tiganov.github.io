@@ -118,7 +118,7 @@ interests:
   - CAD software
 
 skills:
-  - Languages: C++, Java, C, JavaScript, Python, MIPS Assembly, C#
+  - C++, Java, C, JavaScript, Python, MIPS Assembly, C#
   - WALA (static analysis framework for Java, Python, Javascript)
   - Static program analysis (IFDS, call graphs, CFG, pointer analysis, taint analysis, constant propagation, field-based and field-(in)sensitive analysis)
   - Experience with Swift compiler frontend
