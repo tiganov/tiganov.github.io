@@ -107,15 +107,27 @@ projects:
 
 interests:
   - Programming languages
-  - Static analysis
+  - Static program analysis
   - Computer architecture
   - Software architecture and design patterns
-  - Land Surveying
+  - Creative programming (openFrameworks)
   - GIS software solutions
+  - Land Surveying
   - Industrial Automation
-  - Creative programming
   - Electronics (tinkering)
-  - CAD
+  - CAD software
+
+skills:
+  - Languages: C++, Java, C, JavaScript, Python, MIPS Assembly, C#
+  - WALA (static analysis framework for Java, Python, Javascript)
+  - Static program analysis (IFDS, call graphs, CFG, pointer analysis, taint analysis, constant propagation, field-based and field-(in)sensitive analysis)
+  - Experience with Swift compiler frontend
+  - openFrameworks (C++ creative coding framework used for many of my projects)
+  - WPF (for Cluedo Assistant Tool) and JavaFX
+  - Android Studio (for CMPUT 301 project)
+  - Microcontroller programming (Arduino, Teensy)
+  - Land Surveying (Trimble TSC3, SurveyPro)
+  - SolidWorks
 
 academic_achievements_university:
   - Deans Honour Roll for Fa17/Wi18
@@ -131,7 +143,7 @@ academic_achievements_high_school:
 work_experience:
 - title: Research Assistant (Current)
   loc: University of Alberta
-  when: May 2019 -Aug 2019
+  when: May 2019 - Aug 2019
   desc: Working on SWAN, a static analysis framework for Swift applications. 
 - title: General Labourer/Surveyor
   loc: Greentree Engineering - Tisdale, Saskatchewan
