@@ -118,7 +118,8 @@ interests:
   - CAD
 
 academic_achievements_university:
-  - Deans Honour Roll for Fa17/Wi19
+  - Deans Honour Roll for Fa17/Wi18
+  - Deans Honour Roll for Fa18/Wi19
   - Current GPA ~3.6
 
 academic_achievements_high_school:
@@ -128,6 +129,10 @@ academic_achievements_high_school:
   - Harley & Hazel Ransom Memorial Scholarship for Post-Secondary Studies in Engineering
 
 work_experience:
+- title: Research Assistant (Current)
+  loc: University of Alberta
+  when: May 2019 -Aug 2019
+  desc: Working on SWAN, a static analysis framework for Swift applications. 
 - title: General Labourer/Surveyor
   loc: Greentree Engineering - Tisdale, Saskatchewan
   when: May 2018 - Aug 2018
