@@ -32,8 +32,6 @@ navigation:
     url: /
   - text: Projects
     url: /projects
-  - text: CV
-    url: https://tiganov.ca/cv.pdf
 
 about_description: "Computing Science undergraduate student at the University of Alberta.
 Working at the Maple lab under Dr. Karim Ali during the summer/fall of 2019."
