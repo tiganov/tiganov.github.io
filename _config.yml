@@ -44,60 +44,51 @@ research_area: "I am interested in program analysis tools that can be deployed a
 
 projects:
   - name: SWAN - A program analysis framework for Swift
-    description: During the summer of 2019, I am working under the supervision of Dr. Karim Ali to continue the work on SWAN, a static analysis framework for analyzing Swift applications.
+    description: SWAN is the first open source static program analysis framework for Swift meant to enable analysis such as CHA, call graphs, pointer analysis,taint analysis, etc. The translator is written in C++, hooks into the Swift compiler, translates the raw SIL to WALA CAst, and passes the translated IR up to the analysisengine built on top of WALA and written in Java. Currently, I am the main contributor to SWAN.
     link: https://github.com/themaplelab/swan
     image: images/swan.png
 
   - name: Swasar - Swift implementation for Phasar
-    description: I worked on extending Phasar, an LLVM-based static analysis framework developed by the Secure Software Engineering group at Paderborn University, to allow for running analysis on Swift apps for CMPUT 497 course project.
+    description: This project is an attempt at implementing taint analysis on pure Swift applications using the LLVM static program analysis framework, Phasar. LLVM IR generated from the Swift compiler is fed to a modified Phasar analysis to find the presence of taints in the Swift source code. The taint analysis was successful, but using an LLVM analysis framework is not ideal for analyzing Swift applications.
     link: https://github.com/tiganov/swasar
     image: images/phasar.png
 
-  - name: GIS software to assist surveyors in topological surveys
-    description: When I was surveying for Greentree Engineering, I found a large bottleneck in the topological surveying process. I lead a team of 4 developers (total), under the name Prairium, and we are working on a commercial software solution for this problem.
+  - name: QuickTopo
+    description: I currently lead a team of 3 other developers under the name Prairium. We are working on developing an independent commercial solution, QuickTopo, to address a bottleneck in the topological surveying process, especially in the area of agriculture. I have developed and used a prototype for this software when I was working as a surveyor for Greentree Engineering. We hope any surveyor needing to do a significant topological survey can utilize our tool to save time and money.
     image: images/prairium.png
 
   - name: CloudCity - A city building game written for HackEd 2019
-    description: A small game, written almost entirely from scratch for Hacked 2019, about population management and city building using openFrameworks.
+    description: My team and I developed a simple city building game about population management using openFrameworks.
     image: images/cloudcity.png
     link: https://github.com/nickdchee/CityBuilderRTS
 
-  - name: Prototype for the current GIS software for topological surveys being developed
-    description: I developed a prototype for resolving a bottleneck in topological surveying and used the software in the field, saving the company lots of time. I have used the survey on a few job-sites, including James Cameron’s pea processing facility, Verdient Foods, located in Vanscoy, SK.
-    image: images/gis.png
-
   - name: CAT - Cluedo Assistant Tool
-    description: A tool that can log moves and keep track of clues. I was fed up with WPF, so I never ended up implementing an MCTS for Cluedo, but the frontend is there.
+    description: I made a simple desktop application using WPF to assist in keeping track of moves and cards in the game of Cluedo.
     image: images/cat.png
     link: https://github.com/tiganov/CAT
 
   - name: DoctorPlzSaveMe - a medical app developed for CMPUT 301 (Intro to Software Engineering)
-    description: I took the role of project lead and backend developer for this course project. This app allows users to record their medical issues, keep track of them, and receive feedback from a care provider.
+    description: I took on the role of project lead and backend developer for this course project. We developed an app that allows users to track/record their medical issues and receive feedback from a care provider.
     image: images/doctorplzsaveme.png
     link: https://github.com/CMPUT301F18T21/DoctorPlzSaveMe
 
   - name: Starcraft 2 bot - a bot developed for CMPUT 350 (Advanced Game Programming)
-    description: We developed the bot on top of CommandCenter, and pitted it against other teams’ bots. I worked on siege tank and resource gathering AI.
+    description: I helped develop a bot based on CommandCenter, and pitted it against other teams’ bots. I worked on siege tank and resource gathering AI.
     link: https://github.com/tiganov/PatientBot
     image: images/sc2.png
 
   - name: Black Hole Visualizer
-    description: I attempted to visualize a spinning black hole using openFrameworks for an ASTRO creative assignment. It was difficult to do, but the result is interesting.
+    description: I attempted to visualize a spinning black hole using openFrameworks for an ASTRO creative assignment. It was difficult to do, but the result is good enough to roughly represent how particles are affected by a black hole. This work was later presented at a teaching conference by one of the course coordinators.
     link: https://github.com/tiganov/BHSim
     image: images/bhsim.png
 
-  - name: Minor contribution to Frontline, an Arma 3 Mission Mod
-    description: I helped fix a couple of issues with the build. Frontline is an Arma 3 PVP mod, with a complex backend. It is an extremely unique mission in the Arma 3 modding community.
-    link: https://gitlab.com/FrontlineA3/Frontline
-    image: images/frontline.png
-
   - name: Laser Tag Pistol
-    description: I 3D printed, built, and programmed a custom laser tag pistol. It used a Teensy for a micro-controller, produced various sounds, had LED animations, and could receive/send unique IR signals (to be able to differentiate between teams, for instance). I wanted to add more functionality, such as a vibration motor, but was limited by the number of timers the micro-controller had.
+    description: I 3D-printed, built, and programmed a custom laser tag pistol. It uses a Teensy for a micro-controller, produces various sounds, has LED animations, and can receive/send unique IR signals (to be able to differentiate between teams, for instance).
     link_video: https://www.youtube.com/watch?v=VDHNdLiEAhM&feature=youtu.be
     image: images/laser.JPG
 
   - name: Automatic deadbolt unlocker
-    description: I 3D printed, built, and programmed a remote-based automatic deadbolt unlocker for my dorm in my first year at university.
+    description: I 3D printed, built, and programmed a remote-based automatic deadbolt opener for my dorm.
     link_video: https://www.youtube.com/watch?v=exouNxdYlAY&feature=youtu.be
     image: images/dorm.jpeg
 
