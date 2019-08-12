@@ -44,7 +44,7 @@ research_area: "I am interested in program analysis tools that can be deployed a
 
 projects:
   - name: SWAN - A program analysis framework for Swift
-    description: SWAN is the first open source static program analysis framework for Swift meant to enable analysis such as CHA, call graphs, pointer analysis,taint analysis, etc. The translator is written in C++, hooks into the Swift compiler, translates the raw SIL to WALA CAst, and passes the translated IR up to the analysisengine built on top of WALA and written in Java. Currently, I am the main contributor to SWAN.
+    description: SWAN is the first open source static program analysis framework for Swift meant to enable analysis such as CHA, call graphs, pointer analysis, taint analysis, etc. The translator is written in C++, hooks into the Swift compiler, translates the raw SIL to WALA CAst, and passes the translated IR up to the analysis engine built on top of WALA and written in Java. Currently, I am the main contributor to SWAN.
     link: https://github.com/themaplelab/swan
     image: images/swan.png
 
