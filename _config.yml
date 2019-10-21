@@ -38,8 +38,6 @@ navigation:
 about_description: "Computing Science undergraduate student at the University of Alberta.
 Working at the Maple lab under Dr. Karim Ali during the summer/fall of 2019."
 
-about_me: "I was born in Chisinau, Moldova, and my family immigrated to Canada in 2004. I grew up in small farming town in North-Eastern Saskatchewan. During my childhood, I spent just as much time behind a computer as I did working with my hands; whether it was working on cars with my dad, landscaping, or working on construction projects. I graduated high school in 2016, and moved to Edmonton to study at the University of Alberta."
-
 research_area: "I am interested in program analysis tools that can be deployed and used by developers in the industry. I put high priority in making software usable and maintainable. Unlike many current program analysis tools and frameworks, I want my work to be well documented and easy to integrate into developers workflows and development processes."
 
 projects:

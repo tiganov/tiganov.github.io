@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/tiganov/Documents/Personal/tiganov.github.io/cv.html">
-   </FileRef>
-   <FileRef
       location = "group:/Users/tiganov/Documents/Personal/tiganov.github.io/projects.html">
    </FileRef>
    <FileRef
