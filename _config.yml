@@ -51,7 +51,7 @@ projects:
     image: images/phasar.png
 
   - name: QuickTopo
-    description: I currently lead a team of 3 other developers under the name Prairium. We are working on developing an independent commercial solution, QuickTopo, to address a bottleneck in the topological surveying process, especially in the area of agriculture. I have developed and used a prototype for this software when I was working as a surveyor for Greentree Engineering. We hope any surveyor needing to do a significant topological survey can utilize our tool to save time and money.
+    description: I currently lead a team of 4 other developers under the name Prairium. We are working on developing an independent commercial solution, QuickTopo, to address a bottleneck in the topological surveying process, especially in the area of agriculture. I have developed and used a prototype for this software when I was working as a surveyor for Greentree Engineering. We hope any surveyor needing to do a significant topological survey can utilize our tool to save time and money.
     image: images/prairium.png
 
   - name: CloudCity - A city building game written for HackEd 2019
