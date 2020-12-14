@@ -35,9 +35,9 @@ navigation:
   - text: CV
     url: /cv.pdf
 
-about_description: "Security Analysis Intern @ Synopsys, Calgary"
+about_description: "Senior Computing Science Undergraduate Student @ University of Alberta"
 
-research_area: "I am interested in program analysis tools that can be deployed and used by developers in the industry. I put high priority in making software usable and maintainable. Unlike many current program analysis tools and frameworks, I want my work to be well documented and easy to integrate into developer workflows and development processes."
+research_area: "I'm interested in security analysis tools and frameworks that can be widely adopted by developers and integrated into their workflows. I put high priority on making my work usable, well documented, and maintainable. I'm also interested in incorporating the latest and most advanced static analysis research into my work to maximize precision and scalability. My current focus is enabling iOS Swift developers to analyze their apps for security vulnerabilities."
 
 projects:
   - name: SWAN - A program analysis framework for Swift
