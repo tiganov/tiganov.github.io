@@ -41,7 +41,7 @@ research_area: "I'm interested in security analysis tools and frameworks that ca
 
 projects:
   - name: SWAN - A program analysis framework for Swift
-    description: SWAN is the first open source static program analysis framework for Swift meant to enable analysis such as CHA, call graphs, pointer analysis, taint analysis, etc. The translator is written in C++, hooks into the Swift compiler, translates the raw SIL to WALA CAst, and passes the translated IR up to the analysis engine built on top of WALA and written in Java. Currently, I am the main contributor to SWAN.
+    description: SWAN is a static program analysis framework for analyzing Swift (incl. iOS/macOS) applications. SWAN's focus is detecting security vulnerabilities in Swift applications using taint analysis. Currently, I am the main contributor to SWAN.
     link: https://github.com/themaplelab/swan
     image: images/swan.png
 
