@@ -46,13 +46,9 @@ projects:
     image: images/swan.png
 
   - name: Swasar - Swift implementation for Phasar
-    description: This project is an attempt at implementing taint analysis on pure Swift applications using the LLVM static program analysis framework, Phasar. LLVM IR generated from the Swift compiler is fed to a modified Phasar analysis to find the presence of taints in the Swift source code. The taint analysis was successful, but using an LLVM analysis framework is not ideal for analyzing Swift applications.
+    description: This project was an attempt at implementing taint analysis on pure Swift applications using the LLVM static program analysis framework, Phasar. LLVM IR generated from the Swift compiler was fed to a modified Phasar analysis to find the presence of taints in the Swift source code. The taint analysis was successful, but using an LLVM analysis framework is not ideal for analyzing Swift applications.
     link: https://github.com/tiganov/swasar
     image: images/phasar.png
-
-  - name: QuickTopo
-    description: I currently lead a team of 3 other developers under the name Prairium. We are working on developing an independent commercial solution, QuickTopo, to address a bottleneck in the topological surveying process, especially in the area of agriculture. I have developed and used a prototype for this software when I was working as a surveyor for Greentree Engineering. We hope any surveyor needing to do a significant topological survey can utilize our tool to save time and money.
-    image: images/prairium.png
 
   - name: CloudCity - A city building game written for HackEd 2019
     description: My team and I developed a simple city building game about population management using openFrameworks.
@@ -88,10 +84,6 @@ projects:
     description: I 3D printed, built, and programmed a remote-based automatic deadbolt opener for my dorm.
     link_video: https://www.youtube.com/watch?v=exouNxdYlAY&feature=youtu.be
     image: images/dorm.jpeg
-
-  - name: Control panel for flight sims
-    description: I started making a control panel for Elite Dangerous (space flight sim game), but never finished it. WIP, mostly abandoned.
-    image: images/controlpanel.png
 
 interests:
   - Programming languages
