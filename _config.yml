@@ -67,7 +67,6 @@ projects:
 
   - name: Starcraft 2 bot - a bot developed for CMPUT 350 (Advanced Game Programming)
     description: I helped develop a bot based on CommandCenter, and pitted it against other teams’ bots. I worked on siege tank and resource gathering AI.
-    link: https://github.com/tiganov/PatientBot
     image: images/sc2.png
 
   - name: Black Hole Visualizer
