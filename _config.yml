@@ -35,7 +35,7 @@ navigation:
   - text: CV
     url: /cv.pdf
 
-about_description: "Senior Computing Science Undergraduate Student @ University of Alberta"
+about_description: "MSc Computing Science Student @ University of Alberta"
 
 research_area: "I'm interested in security analysis tools and frameworks that can be widely adopted by developers and integrated into their workflows. I put high priority on making my work usable, well documented, and maintainable. I'm also interested in incorporating the latest and most advanced static analysis research into my work to maximize precision and scalability. My current focus is enabling iOS Swift developers to analyze their apps for security vulnerabilities."
 
